@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 function Payment() {
   const total = localStorage.getItem("total");
   // const url = "http://localhost:5000";
-  const url = window.location.href;
+  const url = window.location.hostname;
 
   const [pay, setPay] = useState({
     name: "Zang It",
