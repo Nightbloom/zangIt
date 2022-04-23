@@ -1,2 +1,3 @@
-# zang-server
-zang-server
+# zangIt
+Client 
+Razorpay
