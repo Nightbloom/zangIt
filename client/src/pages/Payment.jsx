@@ -4,7 +4,8 @@ import React, { useEffect, useState } from "react";
 function Payment() {
   const total = localStorage.getItem("total");
   // const url = "http://localhost:5000";
-  const url = window.location.host;
+  // const url = window.location.host;
+  const url =  "https://zang-demo.herokuapp.com";
 
   const [pay, setPay] = useState({
     name: "Zang It",
