@@ -1,3 +1,3 @@
 # zangIt
 Client 
-\nRazorpay
+Razorpay
