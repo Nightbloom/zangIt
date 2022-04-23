@@ -15,6 +15,7 @@ app.use(express.json({ extended: false }))
 
 app.use("/api/payment/", payment)
 app.set('port', PORT);
+app.use(express.static("client/build"));
 
 // Send every other request to the React app  
 // Define any API routes before this runs
